@@ -1,0 +1,13 @@
+0.a) A pilha de protocolos da internet é formada por cinco camadas: física, de enlace, de rede, transporte e aplicação. Ou seja, a união dos protocolos é denominada pilha.
+0.b) Física:Enquanto a tarefa da camada de enlace é movimentar quadros inteiros de um elemento da rede até um elemento adjacente, a da camada física é movimentar ob bits individuais que estão dentro do quadro de um nó para o seguinte. Os protocolos nessa camada
+de novo dependem do enlace e, além disso, do próprio meio de transmissão do enlace. Por exemplo, a Ethernet tem muitos protocolos de camada física: um para par de fios de cobre trançado, outro para cabo coaxial, mais um para fibra e assim por diante. EM cada caso, o bit atravessa o enlace de um modo diferente.
+     Enlace: Onde é feito o roteamento de um datagrama por meio de uma série de roteadores entre a origem e o destino. Para levar um pacote de um nó ao seu próximo, a camada de redes depende da camada de enlace. A cada nó, a camada de redes passa o datagrama à
+camada de enlace, que o entrega, ao longo da rota, ao nó seguinte, no qual o datagrama é passado da camada de enlace para a rede. A tarefa da camada de enlace é movimentar quadros inteiros de um elemento da rede
+     Rede: É responsável pela movimentação de um hospedeiro para outro de pacotes da camada de rede. A camada de rede então provê o serviço de entrega do segmento a camada de transporte no hospedeiro de destino. Essa camada inclui o protocolo IP.
+Comumente referido como um elemento fundamental da integridade da internet.
+     Transporte: É onde carrega mensagens da camada de aplicação entre os lados do cliente e servidor de uma aplicação. Há dois protocolos de transporte na internet: TCP e UDP.
+O TCP provê serviços orientados a conexão para suas aplicações, também fragmenta mensagens longas em mensagens mais curtas e provê mecanismo de controle de congestionamento,
+de modo que diminui a velocidade de transmissão quando a rede está congestionada.
+O UDP provê serviço não orientado a conexão para suas aplicações, é um serviço economico que provê segurança, sem controle de fluxo e congestionamento.
+     Aplicação: É onde residem aplicações de redes e seus protocolos. A camada de aplicação da internet inclui muitos protocolos, tais como o HTTP, SMTP e FTP. Certas funções de rede, como a tradução de nomes fáceis,
+que são dados a sistemas finais da Internet.
